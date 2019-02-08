@@ -1,0 +1,30 @@
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.column {
+    -ms-flex-preferred-size: 0;
+    flex: 1 0 0;
+    -ms-flex-positive: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.images-content {
+    // flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    min-height: 600px;
+    :not(:last-child) {
+        justify-content: space-evenly;
+    }
+}

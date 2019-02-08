@@ -1,0 +1,15 @@
+#nav {
+    padding: 10px;
+    background-color: lightgray;
+}
+
+#nav li {
+    margin: 5px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#nav li:hover {
+    color: grey;
+}
