@@ -1,10 +1,9 @@
 import axios from "axios";
-import setToken from "./setAuthToken";
 
 // Action types for the redux store management.
-const REQUEST_SUCCESS = "REQUEST_SUCCESS";
-const REQUEST_ERROR = "REQUEST_ERROR";
-const REQUEST_LOADING = "REQUEST_LOADING";
+const REQUEST_PRODUCT_SUCCESS = "REQUEST_PRODUCT_SUCCESS";
+const REQUEST_PRODUCT_ERROR = "REQUEST_PRODUCT_ERROR";
+const REQUEST_PRODUCT_LOADING = "REQUEST_PRODUCT_LOADING";
 
 // Endpoints related to the user session management.
 const product_endpoint = "products";
@@ -49,9 +48,13 @@ const productRequest = (
     // Request to the backend.
     axios(settings).then(
         res => {
-            dispatch({ type: REQUEST_SUCCESS, payload: res.data });
+            dispatch({ type: REQUEST_PRODUCT_SUCCESS, payload: res.data });
         },
-        err => dispatch({ type: REQUEST_ERROR, payload: err.response.data })
+        err =>
+            dispatch({
+                type: REQUEST_PRODUCT_ERROR,
+                payload: err.response.data
+            })
     );
 };
 
@@ -112,9 +115,9 @@ const deleteProduct = request_data => dispatch =>
 
 // Exporting the specialized functions and some action types.
 export {
-    REQUEST_ERROR,
-    REQUEST_SUCCESS,
-    REQUEST_LOADING,
+    REQUEST_PRODUCT_ERROR,
+    REQUEST_PRODUCT_SUCCESS,
+    REQUEST_PRODUCT_LOADING,
     getProducts,
     getProduct,
     createProduct,

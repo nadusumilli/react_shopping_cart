@@ -7,6 +7,7 @@
             "description": "4 MSL",
             "availableSizes": ["S", "XS"],
             "style": "Black with custom print",
+            "quantity": 1,
             "price": 10.9,
             "installments": 9,
             "currencyId": "USD",
@@ -14,7 +15,6 @@
             "isFreeShipping": true,
             "image": "../assets/images/products/12064273040195392_1.jpg"
         },
-
         {
             "id": 13,
             "sku": 51498472915966370,
@@ -22,6 +22,7 @@
             "description": "",
             "availableSizes": ["M"],
             "style": "Front print and paisley print",
+            "quantity": 1,
             "price": 29.45,
             "installments": 5,
             "currencyId": "USD",
@@ -29,7 +30,6 @@
             "isFreeShipping": true,
             "image": "../assets/images/products/51498472915966370_1.jpg"
         },
-
         {
             "id": 14,
             "sku": 10686354557628304,
@@ -37,14 +37,14 @@
             "description": "GPX Poly 1",
             "availableSizes": ["X", "L", "XL"],
             "style": "Front tie dye print",
-            "price": 9.0,
+            "quantity": 1,
+            "price": 9,
             "installments": 3,
             "currencyId": "USD",
             "currencyFormat": "$",
             "isFreeShipping": true,
             "image": "../assets/images/products/10686354557628304_1.jpg"
         },
-
         {
             "id": 15,
             "sku": 11033926921508488,
@@ -52,14 +52,14 @@
             "description": "Treino 2014",
             "availableSizes": ["X", "L", "XL", "XXL"],
             "style": "Black T-Shirt with front print",
-            "price": 14.0,
+            "quantity": 1,
+            "price": 14,
             "installments": 5,
             "currencyId": "USD",
             "currencyFormat": "$",
             "isFreeShipping": true,
             "image": "../assets/images/products/11033926921508488_1.jpg"
         },
-
         {
             "id": 11,
             "sku": 39876704341265610,
@@ -67,6 +67,7 @@
             "description": "",
             "availableSizes": ["X", "L"],
             "style": "Wine",
+            "quantity": 1,
             "price": 13.25,
             "installments": 3,
             "currencyId": "USD",
@@ -74,7 +75,6 @@
             "isFreeShipping": true,
             "image": "../assets/images/products/39876704341265610_1.jpg"
         },
-
         {
             "id": 16,
             "sku": 10412368723880252,
@@ -82,21 +82,22 @@
             "description": "",
             "availableSizes": ["XS", "X", "L", "ML", "XL"],
             "style": "Grey",
-            "price": 75.0,
+            "quantity": 1,
+            "price": 75,
             "installments": 5,
             "currencyId": "USD",
             "currencyFormat": "$",
             "isFreeShipping": true,
             "image": "../assets/images/products/10412368723880252_1.jpg"
         },
-
         {
-            "id": 0,
+            "id": 1,
             "sku": 8552515751438644,
             "title": "Cat Tee Black T-Shirt",
             "description": "14/15 s/nº",
             "availableSizes": ["X", "L", "XL", "XXL"],
             "style": "Branco com listras pretas",
+            "quantity": 1,
             "price": 10.9,
             "installments": 9,
             "currencyId": "USD",
@@ -104,7 +105,6 @@
             "isFreeShipping": true,
             "image": "../assets/images/products/8552515751438644_1.jpg"
         },
-
         {
             "id": 1,
             "sku": 18644119330491310,
@@ -112,6 +112,7 @@
             "description": "14/15 s/nº",
             "availableSizes": ["X", "L", "XL", "XXL"],
             "style": "Preta com listras brancas",
+            "quantity": 1,
             "price": 10.9,
             "installments": 9,
             "currencyId": "USD",
@@ -119,7 +120,6 @@
             "isFreeShipping": true,
             "image": "../assets/images/products/18644119330491310_1.jpg"
         },
-
         {
             "id": 2,
             "sku": 11854078013954528,
@@ -127,6 +127,7 @@
             "description": "14/15 s/nº",
             "availableSizes": ["X", "L"],
             "style": "Branco com listras pretas",
+            "quantity": 1,
             "price": 14.9,
             "installments": 7,
             "currencyId": "USD",
@@ -134,7 +135,6 @@
             "isFreeShipping": true,
             "image": "../assets/images/products/11854078013954528_1.jpg"
         },
-
         {
             "id": 3,
             "sku": 876661122392077,
@@ -142,6 +142,7 @@
             "description": "2014 s/nº",
             "availableSizes": ["X", "L"],
             "style": "Preto com listras brancas",
+            "quantity": 1,
             "price": 14.9,
             "installments": 7,
             "currencyId": "USD",
@@ -149,7 +150,6 @@
             "isFreeShipping": true,
             "image": "../assets/images/products/876661122392077_1.jpg"
         },
-
         {
             "id": 4,
             "sku": 9197907543445676,
@@ -157,6 +157,7 @@
             "description": "14/15 s/nº - Jogador",
             "availableSizes": ["XL"],
             "style": "Branco com listras pretas",
+            "quantity": 1,
             "price": 25.9,
             "installments": 12,
             "currencyId": "USD",
@@ -164,7 +165,6 @@
             "isFreeShipping": false,
             "image": "../assets/images/products/9197907543445676_1.jpg"
         },
-
         {
             "id": 5,
             "sku": 10547961582846888,
@@ -172,6 +172,7 @@
             "description": "14/15 + Camiseta 1º Mundial",
             "availableSizes": ["X", "L", "XL"],
             "style": "Preto",
+            "quantity": 1,
             "price": 10.9,
             "installments": 9,
             "currencyId": "USD",
@@ -179,7 +180,6 @@
             "isFreeShipping": false,
             "image": "../assets/images/products/10547961582846888_1.jpg"
         },
-
         {
             "id": 6,
             "sku": 6090484789343891,
@@ -187,14 +187,14 @@
             "description": "Goleiro 13/14",
             "availableSizes": ["XL", "XXL"],
             "style": "Branco",
+            "quantity": 1,
             "price": 49.9,
-            "installments": 0,
+            "installments": 1,
             "currencyId": "USD",
             "currencyFormat": "$",
             "isFreeShipping": true,
             "image": "../assets/images/products/6090484789343891_1.jpg"
         },
-
         {
             "id": 7,
             "sku": 18532669286405344,
@@ -202,6 +202,7 @@
             "description": "1977 Infantil",
             "availableSizes": ["S"],
             "style": "Preto com listras brancas",
+            "quantity": 1,
             "price": 22.5,
             "installments": 4,
             "currencyId": "USD",
@@ -209,7 +210,6 @@
             "isFreeShipping": true,
             "image": "../assets/images/products/18532669286405344_1.jpg"
         },
-
         {
             "id": 8,
             "sku": 5619496040738316,
@@ -217,6 +217,7 @@
             "description": "",
             "availableSizes": ["XL"],
             "style": "Azul escuro",
+            "quantity": 1,
             "price": 18.7,
             "installments": 4,
             "currencyId": "USD",
@@ -224,7 +225,6 @@
             "isFreeShipping": false,
             "image": "../assets/images/products/5619496040738316_1.jpg"
         },
-
         {
             "id": 9,
             "sku": 11600983276356164,
@@ -232,6 +232,7 @@
             "description": "",
             "availableSizes": ["L", "XL"],
             "style": "",
+            "quantity": 1,
             "price": 134.9,
             "installments": 5,
             "currencyId": "USD",
@@ -239,7 +240,6 @@
             "isFreeShipping": true,
             "image": "../assets/images/products/11600983276356164_1.jpg"
         },
-
         {
             "id": 10,
             "sku": 27250082398145996,
@@ -247,7 +247,8 @@
             "description": "",
             "availableSizes": ["L", "XL"],
             "style": "",
-            "price": 49.0,
+            "quantity": 1,
+            "price": 49,
             "installments": 9,
             "currencyId": "USD",
             "currencyFormat": "$",
@@ -257,9 +258,8 @@
     ],
     "cart": {
         "items": [],
-        "total": 0,
-        "tax": 0.065,
-        "cart_sub_total": 0,
-        "checkout": false
+        "total_price": 0,
+        "checkout": false,
+        "total_quantity": 0
     }
 }

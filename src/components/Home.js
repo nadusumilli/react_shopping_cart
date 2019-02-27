@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import "../../assets/css/Home.scss";
+import css from "../../assets/css/Home.scss";
 import Loading from "../pages/Loading";
 import Filter from "./Filter";
 import Product from "./Product";
+import Cart from "./Cart";
 
 class Home extends Component {
     state = {
@@ -12,6 +13,7 @@ class Home extends Component {
 
     componentDidMount() {
         this.props.getProducts();
+        this.props.getCart();
     }
 
     sortByPrice = filter => {
@@ -38,7 +40,10 @@ class Home extends Component {
     };
 
     componentDidUpdate(prevProps) {
-        if (this.props.products !== prevProps.products) {
+        if (
+            this.props.products.data !== prevProps.products.data &&
+            this.props.cart !== prevProps.cart
+        ) {
             this.setState({
                 loading: false,
                 products: this.props.products.data
@@ -52,6 +57,11 @@ class Home extends Component {
         if (loading) return <Loading />;
         return (
             <div className="container">
+                <Cart
+                    cart={this.props.cart}
+                    updateCart={this.props.updateCart}
+                    clearCart={this.props.clearCart}
+                />
                 <div className="row">
                     <Filter
                         sortByPrice={this.sortByPrice}
@@ -61,7 +71,11 @@ class Home extends Component {
                 <ul className="row">
                     <div className="images-content">
                         {products.map(product => (
-                            <Product key={product.sku} product={product} />
+                            <Product
+                                key={product.sku}
+                                product={product}
+                                addToCart={this.props.addToCart}
+                            />
                         ))}
                     </div>
                 </ul>

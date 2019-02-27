@@ -1,4 +1,4 @@
-import * as product_actions from "../actions/product";
+import * as product_actions from "../actions/product.actions";
 
 // Provides the initial state for the event model
 // This is paseed to components as initial state.
@@ -19,17 +19,17 @@ const initial_state = {
  **/
 const products = (state = initial_state, action) => {
     switch (action.type) {
-        case product_actions.REQUEST_SUCCESS:
+        case product_actions.REQUEST_PRODUCT_SUCCESS:
             return {
                 data: action.payload,
                 error: action.payload.error
             };
-        case product_actions.REQUEST_ERROR:
+        case product_actions.REQUEST_PRODUCT_ERROR:
             return {
                 ...state,
                 error: action.payload
             };
-        case product_actions.REQUEST_LOADING:
+        case product_actions.REQUEST_PRODUCT_LOADING:
             return {
                 ...state
             };
