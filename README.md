@@ -1,4 +1,4 @@
-# WedApp Frontend
+# React Frontend
 
 ## Requirements
 1. npm
